@@ -14,5 +14,6 @@ class Migration(migrations.Migration):
             model_name='todomodel',
             name='priority',
             field=models.CharField(choices=[('danger', 'high'), ('info', 'normal'), ('success', 'low')], max_length=50),
+
         ),
     ]
